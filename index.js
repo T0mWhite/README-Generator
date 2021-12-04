@@ -7,6 +7,16 @@ const generateMarkdown = require("./utils/generateMarkdown");
 const questions = [
   {
     type: "input",
+    name: "createdYear",
+    message: "What year was the software created?",
+  },
+  {
+    type: "input",
+    name: "creatorName",
+    message: "What is your name?",
+  },
+  {
+    type: "input",
     name: "title",
     message: "What is the title of this project?",
   },
@@ -14,11 +24,6 @@ const questions = [
     type: "input",
     name: "description",
     message: "Enter a description for this project:",
-  },
-  {
-    type: "input",
-    name: "table of contents",
-    message: "Enter the table of contents:",
   },
   {
     type: "input",
@@ -31,25 +36,19 @@ const questions = [
     message: "How does the user interact with this application",
   },
   {
-    type: "checkbox",
-    name: "License",
+    type: "list",
+    name: "license",
     message: "Which license is this application covered under?",
     choices: [
       new inquirer.Separator(" = Licenses = "),
       {
-        name: "WTFPL",
+        name: "Coffeeware",
       },
       {
         name: "MIT",
       },
       {
         name: "Apache",
-      },
-      {
-        name: "GNU",
-      },
-      {
-        name: "ISC",
       },
     ],
   },
@@ -73,8 +72,12 @@ const questions = [
     name: "questions",
     message: "How can a user ask additional questions?",
   },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
+  },
 ];
-
 //   title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
 
 // TODO: Create a function to write README file
@@ -82,23 +85,21 @@ const questions = [
 // generateMarkdown();
 // };
 
-
 // Create a function to initialize app
 function init() {
-    inquirer
-    .prompt(questions)
-    .then((questions) => {
-        const filename = `README.md`;
-        
-        fs.appendFile(filename, "", (err) =>
-        err ? console.error(err) : console.log("Success!")
-        );
+  inquirer.prompt(questions)
+  .then((answers) => {
+    const filename = `README.md`;
+    console.log(answers);
+    // fs.appendFile(filename, "", (err) =>
+    // err ? console.error(err) : console.log("File made")
+    // );
 
-        fs.writeFile(filename, generateMarkdown(), (err) =>
-        err ? console.error(err) : console.log("Success!")
-        );
-    });
-    // writeToFile();
+    fs.writeFile(filename, generateMarkdown(answers), (err) =>
+      err ? console.error(err) : console.log("Success!")
+    );
+  });
+  // writeToFile();
 }
 
 // // Function call to initialize app

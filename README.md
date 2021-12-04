@@ -1,54 +1,66 @@
-# 
+# n
 
+  ## Description
+  
+  <!-- on -->
+  
+  ## Table of Contents
+  
+  - [Installation](##Installation)
+  - [Usage](#usage)
+  - [License](#License)
+  - [Contributing](#Contributing)
+  - [Tests](#Tests)
+  - [Questions](#Tests)
   
   
-  This homework is graded based on the following criteria: 
   
-  ### Deliverables: 20%
+  ## Installation
   
-  * A sample README generated using the application must be submitted.
+on
   
-  * Your GitHub repository containing your application code.
+  ## Usage
   
-  ### Walkthrough Video: 27%
+on
   
-  * A walkthrough video that demonstrates the functionality of the README generator must be submitted, and a link to the video should be included in your README file.
+  ## License
+
+
+
+    ![License: Coffeeware](https://raw.githubusercontent.com/Sonic853/coffeeware-license/master/coffeeware-logo.png)
+    
+    **"THE COFFEEWARE LICENSE" (Revision 2):**
+
+    no wrote this code. As long as you retain this notice you
+    can do whatever you want with this stuff. If we meet some day, and you think 
+    this stuff is worth it, you can buy me a coffee in return. 
+    
+    Also, you might consider emailing for any comments and/or 
+    questions you might have and if you'd like you can send me a donation 
+    at any time to support my work, ask me how!
+    
+Coffeeware
   
-  * The walkthrough video must demonstrate how a user would invoke the application from the command line.
+  ## Contributing
   
-  * The walkthrough video must demonstrate how a user would enter responses to all of the prompts in the application.
+onn
   
-  * The walkthrough video must demonstrate a generated README that matches the user input and has a functioning table of contents.
+  ## Tests
   
-  ### Technical Acceptance Criteria: 40%
+on
   
-  * Satisfies all of the above acceptance criteria plus the following:
+  ## Questions
   
-    * Uses the [Inquirer package](https://www.npmjs.com/package/inquirer).
+noo
   
-  ### Repository Quality: 13%
+  #### Github
   
-  * Repository has a unique name.
+  https://github.com/o
   
-  * Repository follows best practices for file structure and naming conventions.
+  #### Email
   
-  * Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-  
-  * Repository contains multiple descriptive commit messages.
-  
-  * Repository contains a high-quality README with description and a link to walkthrough video.
+no
   
   
-  ## Review
   
-  You are required to submit the following for review:
   
-  * A walkthrough video demonstrating the functionality of the application.
-  
-  * A sample README.md file for a project repository generated using your application
-  
-  * The URL of the GitHub repository, with a unique name and a README describing the project
-  
-  ---
-  
-  © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
