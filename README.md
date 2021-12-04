@@ -2,7 +2,7 @@
 
   ## Description
   
-  <!-- on -->
+  <!-- n -->
   
   ## Table of Contents
   
@@ -17,49 +17,38 @@
   
   ## Installation
   
-on
+n
   
   ## Usage
   
-on
+n
   
   ## License
 
 
+    ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
 
-    ![License: Coffeeware](https://raw.githubusercontent.com/Sonic853/coffeeware-license/master/coffeeware-logo.png)
-    
-    **"THE COFFEEWARE LICENSE" (Revision 2):**
-
-    no wrote this code. As long as you retain this notice you
-    can do whatever you want with this stuff. If we meet some day, and you think 
-    this stuff is worth it, you can buy me a coffee in return. 
-    
-    Also, you might consider emailing for any comments and/or 
-    questions you might have and if you'd like you can send me a donation 
-    at any time to support my work, ask me how!
-    
-Coffeeware
+Apache
   
   ## Contributing
   
-onn
+n
   
   ## Tests
   
-on
+n
   
   ## Questions
   
-noo
+n
   
   #### Github
   
-  https://github.com/o
+  https://github.com/n
   
   #### Email
   
-no
+n
   
   
   
