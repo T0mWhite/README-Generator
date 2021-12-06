@@ -1,7 +1,23 @@
-// Include packages needed for this application
+// Including packages needed for this application
 const inquirer = require("inquirer");
 const fs = require("fs");
 const generateMarkdown = require("./utils/generateMarkdown");
+
+// Create a starting question to prompt the user if they would like to use the application
+const generateReadme =   {
+  type: "list",
+  name: "beginGeneration",
+  message: "Would you like to generate a README.md for a project?",
+  choices: [
+    new inquirer.Separator(" = Please choose: = "),
+    {
+      name: "Yes",
+    },
+    {
+      name: "No",
+    },
+  ],
+};
 
 // Create an array of questions for user input
 const questions = [
@@ -78,29 +94,30 @@ const questions = [
     message: "What is your email address?",
   },
 ];
-//   title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-
-// TODO: Create a function to write README file
-// function writeToFile() {
-// generateMarkdown();
-// };
 
 // Create a function to initialize app
 function init() {
   inquirer.prompt(questions)
   .then((answers) => {
     const filename = `README.md`;
-    console.log(answers);
-    // fs.appendFile(filename, "", (err) =>
-    // err ? console.error(err) : console.log("File made")
-    // );
-
+    console.log(answers.beginGeneration);
+    
     fs.writeFile(filename, generateMarkdown(answers), (err) =>
-      err ? console.error(err) : console.log("Success!")
+    err ? console.error(err) : console.log("Success!")
     );
   });
-  // writeToFile();
-}
+};
 
-// // Function call to initialize app
-init();
+// // Function call asking if the user would like to generate a readme.
+function generate() {
+  inquirer.prompt(generateReadme)
+  .then((answers) => {
+    console.log(answers.beginGeneration);
+    if (answers.beginGeneration === "No") {
+      process.exit();
+    };
+    init();
+  })
+};
+
+generate();

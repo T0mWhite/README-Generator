@@ -1,54 +1,56 @@
-# n
+# README Generator
 
   ## Description
   
-  <!-- n -->
+  <!-- Generates a readme.md -->
   
   ## Table of Contents
   
-  - [Installation](##Installation)
+  - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#License)
-  - [Contributing](#Contributing)
-  - [Tests](#Tests)
-  - [Questions](#Tests)
+  - [License](#license)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
   
   
   
   ## Installation
   
-n
+Clone my repo
   
   ## Usage
   
-n
+Call node index.js from the develop folder
   
   ## License
 
 
-    ![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+[Apache](http://www.apache.org/licenses/LICENSE-2.0)
+     License
 
-Apache
+![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
+
   
   ## Contributing
   
-n
+Reach out to me!
   
   ## Tests
   
-n
+run it from the command line
   
   ## Questions
   
-n
+Email me
   
   #### Github
   
-  https://github.com/n
+  https://github.com/T0mWhite
   
   #### Email
   
-n
+tbw2.mail@gmail.com
   
   
   
