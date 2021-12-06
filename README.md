@@ -1,8 +1,8 @@
-# README Generator
+# Readme gen
 
   ## Description
   
-  <!-- Generates a readme.md -->
+Generates a readme
   
   ## Table of Contents
   
@@ -17,32 +17,36 @@
   
   ## Installation
   
-Clone my repo
+Clone the repository
   
   ## Usage
   
-Call node index.js from the develop folder
-  
+Install the dependencies and run the application from the command line. Check out the example video and image.
+
+![Example](./assets/images/Example.png)
+
+[Youtube Video of Application in Action](https://youtu.be/L1EJCYBBJR0)
+
   ## License
 
 
-[Apache](http://www.apache.org/licenses/LICENSE-2.0)
+[Coffeeware](https://github.com/Sonic853/coffeeware-license)
      License
 
-![License: Apache](https://img.shields.io/badge/License-Apache_2.0-blue.svg)
-
+![License: Coffeeware](https://raw.githubusercontent.com/Sonic853/coffeeware-license/master/coffeeware-logo.png)
+        
   
   ## Contributing
   
-Reach out to me!
+Contact me
   
   ## Tests
   
-run it from the command line
+Run the application
   
   ## Questions
   
-Email me
+email me
   
   #### Github
   
@@ -54,4 +58,6 @@ tbw2.mail@gmail.com
   
   
   
-  
+
+
+
