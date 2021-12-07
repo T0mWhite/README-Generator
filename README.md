@@ -1,8 +1,8 @@
-# Readme gen
+# asd
 
   ## Description
   
-Generates a readme
+sad
   
   ## Table of Contents
   
@@ -17,18 +17,18 @@ Generates a readme
   
   ## Installation
   
-Clone the repository
+asd
   
   ## Usage
   
-Install the dependencies and run the application from the command line. Check out the example video and image.
+asd
 
 ![Example](./assets/images/Example.png)
 
 [Youtube Video of Application in Action](https://youtu.be/L1EJCYBBJR0)
 
   ## License
-
+© sad, 2021
 
 [Coffeeware](https://github.com/Sonic853/coffeeware-license)
      License
@@ -38,23 +38,23 @@ Install the dependencies and run the application from the command line. Check ou
   
   ## Contributing
   
-Contact me
+asd
   
   ## Tests
   
-Run the application
+sad
   
   ## Questions
   
-email me
+asd
   
   #### Github
   
-  https://github.com/T0mWhite
+  https://github.com/asd
   
   #### Email
   
-tbw2.mail@gmail.com
+asd
   
   
   

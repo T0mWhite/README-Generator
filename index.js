@@ -49,7 +49,7 @@ const questions = [
   {
     type: "input",
     name: "usage",
-    message: "How does the user interact with this application",
+    message: "How does the user interact with this application?",
   },
   {
     type: "list",

@@ -45,6 +45,7 @@ function generateMarkdown(answers) {
 
   const {
     createdYear,
+    creatorName,
     title,
     description,
     tableOfContents,
@@ -88,7 +89,7 @@ ${usage}
 [Youtube Video of Application in Action](https://youtu.be/L1EJCYBBJR0)
 
   ## License
-
+© ${creatorName}, ${createdYear}
 ${renderLicenseLink(answers)} License
 ${renderLicenseBadge(answers)}
   
