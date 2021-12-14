@@ -9,7 +9,7 @@ function renderLicenseBadge(answers) {
         `
   } else if (license === "MIT") {
     return `
-![License: MIT](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 `
   } else if (license === "Apache") {
     return `
