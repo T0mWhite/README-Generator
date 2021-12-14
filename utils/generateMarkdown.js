@@ -9,7 +9,7 @@ function renderLicenseBadge(answers) {
         `
   } else if (license === "MIT") {
     return `
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+    [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 `
   } else if (license === "Apache") {
     return `
@@ -45,7 +45,6 @@ function generateMarkdown(answers) {
 
   const {
     createdYear,
-    creatorName,
     title,
     description,
     tableOfContents,
@@ -89,7 +88,7 @@ ${usage}
 [Youtube Video of Application in Action](https://youtu.be/L1EJCYBBJR0)
 
   ## License
-© ${creatorName}, ${createdYear}
+
 ${renderLicenseLink(answers)} License
 ${renderLicenseBadge(answers)}
   
